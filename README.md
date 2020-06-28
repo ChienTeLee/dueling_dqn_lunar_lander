@@ -1,15 +1,11 @@
 # Dueling Deep Q Network with Prioritized Experience Replay
 
 ## Overview
-In this project, we build a Dueling Deep Q Network with Experience Replay as an reinforcement learning agent to solve the discrete Lunar Lander environment in OpenAI Gym. The goal of this environment is to land the Lunar Lander on the Landing pad with zero speed. This task is considered solved when the average reward is +200 points. 
+In this project, we build a Dueling Deep Q Network with Experience Replay as an reinforcement learning agent to solve the discrete Lunar Lander environment in OpenAI Gym. The goal of this environment is to land the Lunar Lander on the Landing pad with zero speed. This task is considered solved when the average reward is +200 points.
 
-By splitting the q-values of q network into two streams called state-value and action-advantages, Dueling Deep q Network is able to predict more acurratly on q-values. The prioritized experience replay allows the network to select and train experiences which have high td errors, making the training focus on significant experiences. The implemtation also uses fix q-target and soft-update network to further stabilize the training process. 
+By splitting the q-values of q network into two streams called state-value and action-advantages, Dueling Deep q Network is able to predict more acurratly on q-values. The prioritized experience replay allows the network to select and train experiences which have high td errors, making the training focus on significant experiences. The implemtation also uses fix q-target and soft-update network to further stabilize the training process.
 
 (This project is implemented in python and tensorflow 2 and is only for self-practice purpose.)
-
-<p align="center">
-  <img src="https://github.com/ChienTeLee/dueling_dqn_lunar_lander/raw/master/doc/figure8.png" width="45%" height="45%"> 
-</p>
 
 ## Dependencies
 1. python 3.6.9
@@ -33,6 +29,12 @@ The implementation is based on the following papers:
 4. [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
 
 5. [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/abs/1511.06581)
+
+## OpenAI Gym environment
+OpenAI Gym environment: [LunarLander-v2](https://gym.openai.com/envs/LunarLander-v2/)
+<p align="center">
+  <img src="https://github.com/ChienTeLee/dueling_dqn_lunar_lander/raw/master/doc/figure8.png" width="45%" height="45%"> 
+</p>
 
 ## Implementation
 1. The Dueling Deep Q Network with Prioritized Experience Replay is implemented using the following network architecture:
