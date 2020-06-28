@@ -1,8 +1,10 @@
 # Dueling Deep Q Network with Prioritized Experience Replay
 
 ## Overview
-In this project, we build a Dueling Deep Q Network with Experience Replay as an reinforcement learning agent to solve the discrete Lunar Lander environment in OpenAI Gym. The goal of this environment is to land the Lunar Lander on the Landing pad with zero speed. This task is considered solved when the average reward is +200 points. <br/>
-By splitting the q-values of q network into two streams called state-value and action-advantages, Dueling Deep q Network is able to predict more acurratly on q-values. The prioritized experience replay allows the network to select and train experiences which have high td errors, making the training focus on significant experiences. The implemtation also uses fix q-target and soft-update network to further stabilize the training process. <br/>
+In this project, we build a Dueling Deep Q Network with Experience Replay as an reinforcement learning agent to solve the discrete Lunar Lander environment in OpenAI Gym. The goal of this environment is to land the Lunar Lander on the Landing pad with zero speed. This task is considered solved when the average reward is +200 points. 
+
+By splitting the q-values of q network into two streams called state-value and action-advantages, Dueling Deep q Network is able to predict more acurratly on q-values. The prioritized experience replay allows the network to select and train experiences which have high td errors, making the training focus on significant experiences. The implemtation also uses fix q-target and soft-update network to further stabilize the training process. 
+
 (This project is implemented in python and tensorflow 2 and is only for self-practice purpose.)
 
 <p align="center">
