@@ -69,7 +69,7 @@ OpenAI Gym environment: [LunarLander-v2](https://gym.openai.com/envs/LunarLander
 </p>
 
 ## Slides
-[Slides](https://drive.google.com/file/d/17xzBOv3zo3-UU1gxOoEwAVvBtzdJw6Dc/view?usp=sharing)
+[Slides](https://drive.google.com/file/d/1WvU4kFs2DA1YakgI2sEzGAmQ6GpwM_3j/view?usp=sharing)
 
 ## Reference
 This project is inspired by the following blogs:
