@@ -68,6 +68,9 @@ OpenAI Gym environment: [LunarLander-v2](https://gym.openai.com/envs/LunarLander
   <img src="https://github.com/ChienTeLee/dueling_dqn_lunar_lander/raw/master/doc/figure7.png" width="60%" height="55%"> 
 </p>
 
+## Slides
+[Slides](https://drive.google.com/file/d/17xzBOv3zo3-UU1gxOoEwAVvBtzdJw6Dc/view?usp=sharing)
+
 ## Reference
 This project is inspired by the following blogs:
 
